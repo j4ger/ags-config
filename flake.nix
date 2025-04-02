@@ -42,6 +42,8 @@
               # cherry pick packages
             ];
           })
+          pkgs.inotify-tools
+          pkgs.just
         ];
       };
     };
